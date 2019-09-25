@@ -1,0 +1,16 @@
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\bin\Debug\Giaodienthungan.exe.config
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\bin\Debug\Giaodienthungan.exe
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\bin\Debug\Giaodienthungan.pdb
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.csprojAssemblyReference.cache
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.MENU.resources
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.Properties.Resources.resources
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.csproj.GenerateResource.cache
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.csproj.CoreCompileInputs.cache
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.exe
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.pdb
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.Cafe.resources
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.CHONMON.resources
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.Cookie.resources
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.IceBlended.resources
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.CHONBAN.resources
+D:\Năm 2\LTTQ\Giaodienthungan\Giaodienthungan\obj\Debug\Giaodienthungan.Tea.resources
