@@ -30,25 +30,33 @@ Các công nghệ cũng như tính năng nhóm sẽ bổ xung trong quá trình 
 * Bành Phúc Thịnh, MSSV 18521435, Email: 18521435@gm.uit.edu.vn.
 * Nguyễn Huỳnh Tấn Thành, MSSV 1850361@gm.uit.edu.vn.
 
-# ====================================================================================================================================
+# ============================================================================================================
 
 # Roadmap
 ## Projiect của nhóm sẽ chia làm 4 giai đoạn hoàn thiện chính.
+
 **1. Chuẩn bị kiến thức, phân tích cách hòa thiện hệ thống.(Ngày hoàn thành : 19/10/2019)**
+
 - Hoàn thiện toàn bộ giao diện UI, hoàn thành các bước đăng nhập và đăng kí cho staff cũng như manager coffee shop.
 - Bổ xung kiến thức về SQL sever để tiến hành quản lí dữ liệu hệ thống.
 - Bổ xung kiến thức về C# để hoàn thành giao diện UI cũng như là hoàn thành login, sign in.
 - Xác định rõ chức năng của hệ thống, cũng như là hoàn thành các chức năng cơ bản như chọn bàn, chọn món...
 - Nghiên cứu, mô hình hóa những chức năng cao cấp hơn.
+
 **2. Thiết kế cơ sở dữ liệu.(Ngày hoàn thành : 2/11/2019)**
+
 - Thiết kế cơ sở dữ liệu: các món ăn, thông tin món ăn, quản lí mua bán.
 - Nghiên cứu thêm về môn học để thiết kế ứng dụng.
+
 **3. Thiết kế ứng dụng.(Ngày hoàn thành : 23/11/2019)**
+
 - Thiết kế các form chưa hoàn chỉnh ở bản moke up.
 - Code các tính năng như quản lí sản phẩm, sản phẩm đã bán, thống kê sản phẩm.
 - Cài đặt ứng dụng, hoàn thiện tất cả tính năng.
 - Có thể nghiên cứu update thêm phiên bản cho ứng dụng ( Tùy vào tiến trình làm việc của nhóm ).
+
 **4. Test và cài đặt ứng dụng.(Ngày hoàn thành : Đến khi kết thức môn học)**
+
 - Kiểm tra lỗi của ứng dụng, fix và update lại ứng dụng.
 - Hoàn thành slide, poster , báo cáo tiến trình về Project cũng như là kết thúc môn học.
 
