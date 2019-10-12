@@ -30,7 +30,7 @@ Các công nghệ cũng như tính năng nhóm sẽ bổ xung trong quá trình 
 * Bành Phúc Thịnh, MSSV 18521435, Email: 18521435@gm.uit.edu.vn.
 * Nguyễn Huỳnh Tấn Thành, MSSV 1850361@gm.uit.edu.vn.
 
-# =================================================================================================================
+# =====================================================================================================================
 
 # Roadmap
 ## Projiect của nhóm sẽ chia làm 4 giai đoạn hoàn thiện chính.
