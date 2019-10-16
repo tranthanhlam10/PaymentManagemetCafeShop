@@ -30,10 +30,10 @@ Các công nghệ cũng như tính năng nhóm sẽ bổ xung trong quá trình 
 * Bành Phúc Thịnh, MSSV 18521435, Email: 18521435@gm.uit.edu.vn.
 * Nguyễn Huỳnh Tấn Thành, MSSV 1850361@gm.uit.edu.vn.
 
-# ==================================================================================================================+
+# 
 
 # Roadmap
-## Projiect của nhóm sẽ chia làm 4 giai đoạn hoàn thiện chính.
+## Project của nhóm sẽ chia làm 4 giai đoạn hoàn thiện chính.
 
 **1. Chuẩn bị kiến thức, phân tích cách hòa thiện hệ thống.(Ngày hoàn thành : 19/10/2019)**
 
@@ -45,15 +45,18 @@ Các công nghệ cũng như tính năng nhóm sẽ bổ xung trong quá trình 
 
 **2. Thiết kế cơ sở dữ liệu.(Ngày hoàn thành : 2/11/2019)**
 
+- Tổng kết lại tiến độ 1, đề ra deadline cho tiến độ 2
 - Thiết kế cơ sở dữ liệu: các món ăn, thông tin món ăn, quản lí mua bán.
 - Nghiên cứu thêm về môn học để thiết kế ứng dụng.
 
 **3. Thiết kế ứng dụng.(Ngày hoàn thành : 23/11/2019)**
 
+- Tổng kết lại tiến độ 2, đề ra deadline cho tiến độ 3
 - Thiết kế các form chưa hoàn chỉnh ở bản moke up.
 - Code các tính năng như quản lí sản phẩm, sản phẩm đã bán, thống kê sản phẩm.
 - Cài đặt ứng dụng, hoàn thiện tất cả tính năng.
 - Có thể nghiên cứu update thêm phiên bản cho ứng dụng ( Tùy vào tiến trình làm việc của nhóm ).
+
 
 **4. Test và cài đặt ứng dụng.(Ngày hoàn thành : Đến khi kết thức môn học)**
 
