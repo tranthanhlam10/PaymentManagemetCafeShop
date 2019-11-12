@@ -35,7 +35,7 @@ Các công nghệ cũng như tính năng nhóm sẽ bổ xung trong quá trình 
 # Roadmap
 ## Project của nhóm sẽ chia làm 4 giai đoạn hoàn thiện chính.
 
-**1. Chuẩn bị kiến thức, phân tích cách hòa thiện hệ thống.(Ngày hoàn thành : 19/10/2019)**
+**1. Chuẩn bị kiến thức, phân tích cách hòa thiện hệ thống.(Ngày hoàn thành : 20/10/2019)**
 
 - Hoàn thiện toàn bộ giao diện UI, hoàn thành các bước đăng nhập và đăng kí cho staff cũng như manager coffee shop.
 - Bổ xung kiến thức về SQL sever để tiến hành quản lí dữ liệu hệ thống.
@@ -43,13 +43,13 @@ Các công nghệ cũng như tính năng nhóm sẽ bổ xung trong quá trình 
 - Xác định rõ chức năng của hệ thống, cũng như là hoàn thành các chức năng cơ bản như chọn bàn, chọn món...
 - Nghiên cứu, mô hình hóa những chức năng cao cấp hơn.
 
-**2. Thiết kế cơ sở dữ liệu.(Ngày hoàn thành : 2/11/2019)**
+**2. Thiết kế cơ sở dữ liệu.(Ngày hoàn thành : 16/11/2019)**
 
 - Tổng kết lại tiến độ 1, đề ra deadline cho tiến độ 2
 - Thiết kế cơ sở dữ liệu: các món ăn, thông tin món ăn, quản lí mua bán.
 - Nghiên cứu thêm về môn học để thiết kế ứng dụng.
 
-**3. Thiết kế ứng dụng.(Ngày hoàn thành : 23/11/2019)**
+**3. Thiết kế ứng dụng.(Ngày hoàn thành : 1/12/2019)**
 
 - Tổng kết lại tiến độ 2, đề ra deadline cho tiến độ 3
 - Thiết kế các form chưa hoàn chỉnh ở bản moke up.
