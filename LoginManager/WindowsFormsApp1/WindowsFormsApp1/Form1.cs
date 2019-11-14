@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Security.Cryptography; 
+using System.Security.Cryptography;
+using System.Data.SqlClient;
 
 namespace WindowsFormsApp1
 {
@@ -17,45 +18,102 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
             this.AcceptButton = button2;
+            textBox1.Clear();
             
         }
+
         private void button2_Click(object sender, EventArgs e)
         {
-            string[] text = System.IO.File.ReadAllLines(@"D:\btOOP\WindowsFormsApp1\data.txt");
-            int n = text.Length;
-            string user = textBox1.Text;
-            string pass = textBox2.Text;
-            int flag = 0; 
-            for (int i = 0; i < n; i += 2)
+            String connString = @"Data Source=HOME-PC;Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(connString);
+            int flag = 0;
+            try
             {
-                if (user == text[i])
+                connection.Open();
+                String sqlQuerry = "select username,MatKhau from pass";
+                SqlCommand command = new SqlCommand(sqlQuerry, connection);
+                SqlDataReader reader = command.ExecuteReader();
+                while(reader.HasRows)
                 {
-                    using (MD5 md5hash = MD5.Create())
+                    if (reader.Read() == false) return;
+                    String SampleUsername = reader.GetString(0);
+                    String SamplePass = reader.GetString(1);
+                    if(textBox1.Text==SampleUsername)
                     {
-                        if (VerifyMd5Hash(md5hash, pass, text[i + 1]))
+                        using (MD5 md5hash = MD5.Create())
                         {
-                            MessageBox.Show("Welcome " + user);
-                            AfterLogin AfterLogin = new AfterLogin();
-                            AfterLogin.FormClosed += new FormClosedEventHandler(afterlogin_closed);
-                            this.Hide();
-                            AfterLogin.Show();
-                            flag = 1;
-                            break;
-                        }
-                        else
-                        {
-                            flag = 0;
-                            break;
-
+                            if (VerifyMd5Hash(md5hash, textBox2.Text, SamplePass))
+                            {
+                                MessageBox.Show("Welcome " + SampleUsername);
+                                AfterLogin AfterLogin = new AfterLogin();
+                                AfterLogin.FormClosed += new FormClosedEventHandler(afterlogin_closed);
+                                this.Hide();
+                                AfterLogin.Show();
+                                flag = 1;
+                            }
+                            else
+                            {
+                                flag = 0;
+                            }
                         }
                     }
+                    if (flag == 0)
+                        MessageBox.Show("Username or password is wrong");
                 }
             }
-            if(flag==0)
+            catch (InvalidOperationException ex)
             {
-                 MessageBox.Show("Username or Password is incorrect");
+                MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ket noi xay ra loi");
+            }
+            finally
+            {
+                connection.Close();
             }
         }
+
+        //private void button2_Click(object sender, EventArgs e)
+        //{
+        //    string[] text = System.IO.File.ReadAllLines(@"D:\btOOP\WindowsFormsApp1\data.txt");
+        //    int n = text.Length;
+        //    string user = textBox1.Text;
+        //    string pass = textBox2.Text;
+        //    int flag = 0; 
+        //    for (int i = 0; i < n; i += 2)
+        //    {
+        //        if (user == text[i])
+        //        {
+        //            using (MD5 md5hash = MD5.Create())
+        //            {
+        //                if (VerifyMd5Hash(md5hash, pass, text[i + 1]))
+        //                {
+        //                    MessageBox.Show("Welcome " + user);
+        //                    AfterLogin AfterLogin = new AfterLogin();
+        //                    AfterLogin.FormClosed += new FormClosedEventHandler(afterlogin_closed);
+        //                    this.Hide();
+        //                    AfterLogin.Show();
+        //                    flag = 1;
+        //                    break;
+        //                }
+        //                else
+        //                {
+        //                    flag = 0;
+        //                    break;
+
+        //                }
+        //            }
+        //        }
+        //    }
+        //    if(flag==0)
+        //    {
+        //         MessageBox.Show("Username or Password is incorrect");
+        //    }
+        //}
+
+
         static string GetMd5Hash(MD5 md5Hash, string input)
         {
 
@@ -108,17 +166,8 @@ namespace WindowsFormsApp1
         
         
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Form2 Form2 = new Form2();
-            Form2.FormClosed +=new FormClosedEventHandler(form2_closed);
-            this.Hide();
-            Form2.Show();
-        }
-        void form2_closed(object sender, FormClosedEventArgs e)
-        {
-            this.Show();
-        }
+       
+     
         void afterlogin_closed(object sender,FormClosedEventArgs e)
         {
             this.Show();

@@ -22,3 +22,13 @@ D:\Năm 2\LTTQ\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.cspr
 D:\Năm 2\LTTQ\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 D:\Năm 2\LTTQ\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\Năm 2\LTTQ\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.AfterLogin.resources
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\LoginManager\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb

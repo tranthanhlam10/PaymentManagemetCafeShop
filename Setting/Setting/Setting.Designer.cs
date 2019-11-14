@@ -39,35 +39,34 @@
             this.Login.BackColor = System.Drawing.Color.LightCoral;
             this.Login.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Login.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Login.Location = new System.Drawing.Point(163, 253);
-            this.Login.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Login.Location = new System.Drawing.Point(122, 206);
             this.Login.Name = "Login";
-            this.Login.Size = new System.Drawing.Size(213, 142);
+            this.Login.Size = new System.Drawing.Size(160, 115);
             this.Login.TabIndex = 0;
             this.Login.Text = "Login";
             this.Login.UseVisualStyleBackColor = false;
+            this.Login.Click += new System.EventHandler(this.Login_Click);
             // 
             // CheckBill
             // 
             this.CheckBill.BackColor = System.Drawing.Color.LightCoral;
             this.CheckBill.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.CheckBill.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CheckBill.Location = new System.Drawing.Point(668, 253);
-            this.CheckBill.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CheckBill.Location = new System.Drawing.Point(501, 206);
             this.CheckBill.Name = "CheckBill";
-            this.CheckBill.Size = new System.Drawing.Size(213, 142);
+            this.CheckBill.Size = new System.Drawing.Size(160, 115);
             this.CheckBill.TabIndex = 1;
             this.CheckBill.Text = "Check bill";
             this.CheckBill.UseVisualStyleBackColor = false;
+            this.CheckBill.Click += new System.EventHandler(this.CheckBill_Click);
             // 
             // button3
             // 
             this.button3.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(-5, -2);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Location = new System.Drawing.Point(-4, -2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(142, 89);
+            this.button3.Size = new System.Drawing.Size(106, 72);
             this.button3.TabIndex = 2;
             this.button3.Text = "Back";
             this.button3.UseVisualStyleBackColor = false;
@@ -77,23 +76,24 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(457, -2);
+            this.label1.Location = new System.Drawing.Point(343, -2);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(165, 52);
+            this.label1.Size = new System.Drawing.Size(132, 39);
             this.label1.TabIndex = 3;
             this.label1.Text = "Setting";
             // 
             // Setting
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.CheckBill);
             this.Controls.Add(this.Login);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Setting";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Setting";
             this.ResumeLayout(false);
             this.PerformLayout();

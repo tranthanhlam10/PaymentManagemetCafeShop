@@ -16,7 +16,7 @@ namespace Setting
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BillShow());
+            Application.Run(new Setting());
         }
     }
 }
