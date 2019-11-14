@@ -28,7 +28,7 @@ Các công nghệ cũng như tính năng nhóm sẽ bổ xung trong quá trình 
 ### Thông tin thành viên.
 * Trần Thanh Lâm, MSSV 18520082, Email: 1850082@gm.uit.edu.vn.
 * Bành Phúc Thịnh, MSSV 18521435, Email: 18521435@gm.uit.edu.vn.
-* Nguyễn Huỳnh Tấn Thành, MSSV 1850361@gm.uit.edu.vn.
+* Nguyễn Huỳnh Tấn Thành, MSSV 18520361@gm.uit.edu.vn.
 
 # 
 
