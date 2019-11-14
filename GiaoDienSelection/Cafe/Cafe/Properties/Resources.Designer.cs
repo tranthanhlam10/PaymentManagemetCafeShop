@@ -69,5 +69,15 @@ namespace Cafe.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hinh_anh_cafe_dep_ly_cafe_ca_phe_sua_da_ca_phe_den_7 {
+            get {
+                object obj = ResourceManager.GetObject("hinh-anh-cafe-dep-ly-cafe-ca-phe-sua-da-ca-phe-den-7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
