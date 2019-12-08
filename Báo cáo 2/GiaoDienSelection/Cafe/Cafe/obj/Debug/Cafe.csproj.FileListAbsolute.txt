@@ -1,0 +1,26 @@
+D:\Năm 2\LTTQ\Cafe\Cafe\bin\Debug\Cafe.exe.config
+D:\Năm 2\LTTQ\Cafe\Cafe\bin\Debug\Cafe.exe
+D:\Năm 2\LTTQ\Cafe\Cafe\bin\Debug\Cafe.pdb
+D:\Năm 2\LTTQ\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+D:\Năm 2\LTTQ\Cafe\Cafe\obj\Debug\Cafe.Form1.resources
+D:\Năm 2\LTTQ\Cafe\Cafe\obj\Debug\Cafe.Properties.Resources.resources
+D:\Năm 2\LTTQ\Cafe\Cafe\obj\Debug\Cafe.csproj.GenerateResource.cache
+D:\Năm 2\LTTQ\Cafe\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
+D:\Năm 2\LTTQ\Cafe\Cafe\obj\Debug\Cafe.exe
+D:\Năm 2\LTTQ\Cafe\Cafe\obj\Debug\Cafe.pdb
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe.config
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.pdb
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Properties.Resources.resources
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.GenerateResource.cache
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.exe
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.pdb
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.paymentcafe.resources
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Booking.resources
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Table.resources
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.MainLogin.resources
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BillInfo.resources
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BookingBestSaler.resources
+C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Setting1.resources
