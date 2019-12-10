@@ -24,3 +24,19 @@ C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\o
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BillInfo.resources
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BookingBestSaler.resources
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Setting1.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe.config
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.pdb
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BillInfo.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BookingBestSaler.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Booking.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.paymentcafe.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Table.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.MainLogin.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Properties.Resources.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Setting1.resources
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.GenerateResource.cache
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.exe
+D:\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.pdb

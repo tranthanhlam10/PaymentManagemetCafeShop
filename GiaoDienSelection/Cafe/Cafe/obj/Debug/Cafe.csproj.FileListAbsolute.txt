@@ -20,3 +20,15 @@ C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\o
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.exe
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.pdb
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe.config
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.pdb
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Form1.resources
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Form2.resources
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Form3.resources
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Properties.Resources.resources
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.GenerateResource.cache
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.exe
+D:\PaymentManagemetCafeShop\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.pdb
