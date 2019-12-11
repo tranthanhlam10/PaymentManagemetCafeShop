@@ -172,5 +172,10 @@ namespace WindowsFormsApp1
         {
             this.Show();
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

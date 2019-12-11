@@ -316,12 +316,16 @@ namespace Cafe
         // trở về khi nhấn nút back
         private void button17_Click(object sender, EventArgs e)
         {
-            paymentcafe f = new paymentcafe();
-            this.Hide();
-            f.ShowDialog();
-            this.Close();
+            DialogResult dialogResult = MessageBox.Show("Bạn có chắc muốn thoát phiên làm việc", "Xác nhận", MessageBoxButtons.YesNo);
+            if (dialogResult == DialogResult.Yes)
+            {
+                this.Close();  //do something
+            }
+            else if (dialogResult == DialogResult.No)
+            {
+                //do something else
+            }
 
-            
         }
     }
 }

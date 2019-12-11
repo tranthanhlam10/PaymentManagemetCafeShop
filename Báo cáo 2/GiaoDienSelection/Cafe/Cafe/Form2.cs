@@ -22,20 +22,15 @@ namespace Cafe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            Table f = new Table();
-
+            boking2 boking = new boking2();
             this.Hide();
+            boking.Show();
+            boking.FormClosed += new FormClosedEventHandler(boking_closed);
+        }
 
-            MessageBox.Show("Bạn đã vào phần booking của ứng dụng");
-
-            f.ShowDialog();
-
-            this.Close();
-
-           // MessageBox.Show("Bạn đã vào phần booking của ứng dụng");
-          
-            
+        void boking_closed(object sender,FormClosedEventArgs e)
+        {
+            this.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

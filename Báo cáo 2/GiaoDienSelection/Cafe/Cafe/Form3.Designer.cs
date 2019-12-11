@@ -68,7 +68,7 @@
             this.label1.Location = new System.Drawing.Point(497, -1);
             this.label1.Margin = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(326, 51);
+            this.label1.Size = new System.Drawing.Size(262, 39);
             this.label1.TabIndex = 0;
             this.label1.Text = "ChoosingTable";
             // 
@@ -297,7 +297,7 @@
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.Location = new System.Drawing.Point(12, 101);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(492, 28);
+            this.textBox1.Size = new System.Drawing.Size(492, 24);
             this.textBox1.TabIndex = 19;
             // 
             // label2
@@ -307,7 +307,7 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(14, 29);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(136, 44);
+            this.label2.Size = new System.Drawing.Size(107, 36);
             this.label2.TabIndex = 20;
             this.label2.Text = "Notes:";
             // 
@@ -332,7 +332,7 @@
             this.txtTable.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTable.Location = new System.Drawing.Point(12, 400);
             this.txtTable.Name = "txtTable";
-            this.txtTable.Size = new System.Drawing.Size(138, 53);
+            this.txtTable.Size = new System.Drawing.Size(138, 44);
             this.txtTable.TabIndex = 25;
             // 
             // label4
@@ -341,7 +341,7 @@
             this.label4.BackColor = System.Drawing.Color.IndianRed;
             this.label4.Location = new System.Drawing.Point(16, 349);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(236, 32);
+            this.label4.Size = new System.Drawing.Size(182, 26);
             this.label4.TabIndex = 24;
             this.label4.Text = "SeclectedTable:";
             // 
@@ -360,7 +360,7 @@
             // 
             this.txtBill.Location = new System.Drawing.Point(12, 253);
             this.txtBill.Name = "txtBill";
-            this.txtBill.Size = new System.Drawing.Size(268, 38);
+            this.txtBill.Size = new System.Drawing.Size(268, 32);
             this.txtBill.TabIndex = 22;
             // 
             // label3
@@ -369,13 +369,13 @@
             this.label3.BackColor = System.Drawing.Color.Firebrick;
             this.label3.Location = new System.Drawing.Point(16, 202);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(224, 32);
+            this.label3.Size = new System.Drawing.Size(176, 26);
             this.label3.TabIndex = 21;
             this.label3.Text = "NumberOfBiLL:";
             // 
             // Table
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(26F, 51F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 39F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1257, 678);
             this.Controls.Add(this.panel2);
@@ -385,6 +385,7 @@
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(10);
             this.Name = "Table";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TableChoice";
             this.Load += new System.EventHandler(this.Table_Load);
             this.panel1.ResumeLayout(false);
