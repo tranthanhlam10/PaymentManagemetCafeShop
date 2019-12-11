@@ -55,11 +55,17 @@ create table CTHD
 	constraint FK_CTHD_HoaDon foreign key (SoHD) references HoaDon (SoHD)
 )
 
-create table pass
+create table Nhanvien
 (
-	username varchar(30) not null,
-	MatKhau varchar(30) not null,
+	MaNV int identity(1,1) primary key,
+	MatKhau varchar(50) not null,
+	HoTen varchar(40) not null,
+	SDT varchar(15) not null,
+	GioiTinh bit not null,
+	email varchar(50) not null,
+	ngaysinh date not null,
 )
+
 
 insert into KhachHang (SDT,HoTen) values ('0767062905','Banh Phuc Thinh')
 
