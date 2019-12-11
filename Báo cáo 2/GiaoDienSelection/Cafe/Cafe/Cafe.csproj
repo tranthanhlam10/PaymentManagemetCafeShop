@@ -59,12 +59,19 @@
     <Compile Include="boking2.Designer.cs">
       <DependentUpon>boking2.cs</DependentUpon>
     </Compile>
+    <Compile Include="booking4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="booking4.Designer.cs">
+      <DependentUpon>booking4.cs</DependentUpon>
+    </Compile>
     <Compile Include="BookingBestSaler.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BookingBestSaler.Designer.cs">
       <DependentUpon>BookingBestSaler.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +109,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="boking2.resx">
       <DependentUpon>boking2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="booking4.resx">
+      <DependentUpon>booking4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BookingBestSaler.resx">
       <DependentUpon>BookingBestSaler.cs</DependentUpon>

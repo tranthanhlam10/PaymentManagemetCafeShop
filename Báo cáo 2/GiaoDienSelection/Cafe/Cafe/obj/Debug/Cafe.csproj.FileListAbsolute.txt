@@ -56,3 +56,4 @@ C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Caf
 C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Setting1.resources
 C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.GenerateResource.Cache
 C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.boking2.resources
+C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.booking4.resources

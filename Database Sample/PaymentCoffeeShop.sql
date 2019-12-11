@@ -170,3 +170,11 @@ and		DongSP='tea'
 group by SanPham.Ten,CTSP.Gia,CTHD.SoLuong
 ) asd
 group by ten
+
+select	Gia
+from	SanPham,CTSP
+where	SanPham.MaSP=CTSP.MaSP
+and		Ten='Black cafe'
+and		Size='M'
+
+select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Black cafe' and Size = 'M'

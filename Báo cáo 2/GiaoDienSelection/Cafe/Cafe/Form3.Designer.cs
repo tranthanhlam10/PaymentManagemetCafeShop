@@ -48,14 +48,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.vScrollBar1 = new System.Windows.Forms.VScrollBar();
             this.button17 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.txtTable = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button18 = new System.Windows.Forms.Button();
-            this.txtBill = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -292,40 +286,16 @@
             this.button17.UseVisualStyleBackColor = false;
             this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 101);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(492, 24);
-            this.textBox1.TabIndex = 19;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Red;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(14, 29);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(107, 36);
-            this.label2.TabIndex = 20;
-            this.label2.Text = "Notes:";
-            // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.panel2.Controls.Add(this.txtTable);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Controls.Add(this.button18);
-            this.panel2.Controls.Add(this.txtBill);
-            this.panel2.Controls.Add(this.label3);
-            this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Controls.Add(this.label2);
             this.panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel2.Location = new System.Drawing.Point(723, 64);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(522, 605);
             this.panel2.TabIndex = 21;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // txtTable
             // 
@@ -334,44 +304,7 @@
             this.txtTable.Name = "txtTable";
             this.txtTable.Size = new System.Drawing.Size(138, 44);
             this.txtTable.TabIndex = 25;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.IndianRed;
-            this.label4.Location = new System.Drawing.Point(16, 349);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(182, 26);
-            this.label4.TabIndex = 24;
-            this.label4.Text = "SeclectedTable:";
-            // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button18.Location = new System.Drawing.Point(341, 511);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(181, 94);
-            this.button18.TabIndex = 23;
-            this.button18.Text = "Seclect";
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
-            // 
-            // txtBill
-            // 
-            this.txtBill.Location = new System.Drawing.Point(12, 253);
-            this.txtBill.Name = "txtBill";
-            this.txtBill.Size = new System.Drawing.Size(268, 32);
-            this.txtBill.TabIndex = 22;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Firebrick;
-            this.label3.Location = new System.Drawing.Point(16, 202);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(176, 26);
-            this.label3.TabIndex = 21;
-            this.label3.Text = "NumberOfBiLL:";
+            this.txtTable.Visible = false;
             // 
             // Table
             // 
@@ -418,13 +351,7 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.VScrollBar vScrollBar1;
         private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtBill;
-        private System.Windows.Forms.Button button18;
         private System.Windows.Forms.TextBox txtTable;
-        private System.Windows.Forms.Label label4;
     }
 }

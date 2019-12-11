@@ -48,6 +48,7 @@ namespace Cafe
         public Booking()
         {
             InitializeComponent();
+            txtTable2.Text = Class1.Billnumber.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
