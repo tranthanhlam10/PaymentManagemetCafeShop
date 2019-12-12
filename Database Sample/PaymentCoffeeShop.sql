@@ -1,4 +1,4 @@
-﻿create database PaymentCoffeeShop
+﻿create database Payment
 
 use  PaymentCoffeeShop
 
@@ -86,8 +86,8 @@ from SanPham,CTHD
 where	CTHD.MaSP=SanPham.MaSP
 group by SanPham.Ten,CTHD.SoLuong
 
-insert into SanPham (DongSP,Ten) values ('Cafe','Cafe đen')
-insert into SanPham (DongSP,Ten) values ('Cafe','Cafe sữa')
+insert into SanPham (DongSP,Ten) values ('Cafe','Black cafe')
+insert into SanPham (DongSP,Ten) values ('Cafe','Milk ')
 insert into SanPham (DongSP,Ten) values ('Cafe','Espresso')
 insert into SanPham (DongSP,Ten) values ('Cafe','Americano')
 insert into SanPham (DongSP,Ten) values ('Tea','Trà đào')
