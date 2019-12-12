@@ -53,10 +53,10 @@ namespace Cafe
 
         private void button2_Click(object sender, EventArgs e)
         {
-            BillInfo f = new BillInfo();
-            this.Hide();
-            f.ShowDialog();
-            f.Close();
+            //BillInfo f = new BillInfo();
+            //this.Hide();
+            //f.ShowDialog();
+            //f.Close();
         }
 
         private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
