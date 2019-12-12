@@ -167,13 +167,14 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.textBox32 = new System.Windows.Forms.TextBox();
             this.Xoa = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SL = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Size = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Gia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.label33 = new System.Windows.Forms.Label();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.Cafe.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -1799,7 +1800,8 @@
             this.Ten,
             this.SL,
             this.Size,
-            this.Gia});
+            this.Gia,
+            this.id});
             this.dgv.Location = new System.Drawing.Point(777, 0);
             this.dgv.Margin = new System.Windows.Forms.Padding(2);
             this.dgv.Name = "dgv";
@@ -1851,6 +1853,25 @@
             this.textBox1.TabIndex = 13;
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label33.Location = new System.Drawing.Point(778, 501);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(127, 31);
+            this.label33.TabIndex = 14;
+            this.label33.Text = "Tổng tiền";
+            // 
+            // textBox32
+            // 
+            this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox32.Location = new System.Drawing.Point(924, 501);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.ReadOnly = true;
+            this.textBox32.Size = new System.Drawing.Size(293, 38);
+            this.textBox32.TabIndex = 15;
+            // 
             // Xoa
             // 
             this.Xoa.HeaderText = "Xóa";
@@ -1883,24 +1904,12 @@
             this.Gia.Name = "Gia";
             this.Gia.ReadOnly = true;
             // 
-            // label33
+            // id
             // 
-            this.label33.AutoSize = true;
-            this.label33.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label33.Location = new System.Drawing.Point(778, 501);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(127, 31);
-            this.label33.TabIndex = 14;
-            this.label33.Text = "Tổng tiền";
-            // 
-            // textBox32
-            // 
-            this.textBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox32.Location = new System.Drawing.Point(924, 501);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(293, 38);
-            this.textBox32.TabIndex = 15;
+            this.id.HeaderText = "id";
+            this.id.Name = "id";
+            this.id.ReadOnly = true;
+            this.id.Visible = false;
             // 
             // booking4
             // 
@@ -2132,12 +2141,13 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.TextBox textBox32;
         private System.Windows.Forms.DataGridViewButtonColumn Xoa;
         private System.Windows.Forms.DataGridViewTextBoxColumn Ten;
         private System.Windows.Forms.DataGridViewTextBoxColumn SL;
         private System.Windows.Forms.DataGridViewTextBoxColumn Size;
         private System.Windows.Forms.DataGridViewTextBoxColumn Gia;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.DataGridViewTextBoxColumn id;
     }
 }

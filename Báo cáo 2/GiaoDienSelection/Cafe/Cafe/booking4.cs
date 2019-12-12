@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 
+
 namespace Cafe
 {
     public partial class booking4 : Form
@@ -35,7 +36,31 @@ namespace Cafe
             textBox30.KeyPress += new KeyPressEventHandler(number_textbox1_press);
 
             dgv.CellClick += new DataGridViewCellEventHandler(delete_click);
+
+            dgv.RowsAdded += new DataGridViewRowsAddedEventHandler(DataGridView1_RowsAdded);
+            dgv.RowsRemoved += new DataGridViewRowsRemovedEventHandler(DataGridView1_RowsRemoved);
         }
+        static int asd = 0;
+        private void DataGridView1_RowsAdded(object sender, System.Windows.Forms.DataGridViewRowsAddedEventArgs e)
+        {
+            Class1.trigia = 0;
+            for(int i=0;i<dgv.Rows.Count-1;i++)
+            {
+                Class1.trigia += Convert.ToInt32(dgv.Rows[i].Cells[4].Value)/1000* Convert.ToInt32(dgv.Rows[i].Cells[2].Value);
+            }
+            textBox32.Text = Class1.trigia.ToString();
+        }
+
+        private void DataGridView1_RowsRemoved(object sender, System.Windows.Forms.DataGridViewRowsRemovedEventArgs e)
+        {
+            Class1.trigia = 0;
+            for (int i = 0; i < dgv.Rows.Count - 1; i++)
+            {
+                Class1.trigia += Convert.ToInt32(dgv.Rows[i].Cells[4].Value) / 1000 * Convert.ToInt32(dgv.Rows[i].Cells[2].Value);
+            }
+            textBox32.Text = Class1.trigia.ToString();
+        }
+
 
         void delete_click(object sender, DataGridViewCellEventArgs e)
         {
@@ -86,7 +111,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Black cafe' and Size = '"+row.Cells[3].Value+"'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Black cafe' and Size = '"+row.Cells[3].Value+"'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -95,7 +120,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -137,7 +163,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Milk cafe' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Milk cafe' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -146,7 +172,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -187,7 +214,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Americano' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Americano' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -196,7 +223,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -237,7 +265,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Cappuchino' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Cappuchino' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -246,7 +274,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -287,7 +316,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Espresso' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Espresso' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -296,7 +325,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -339,7 +369,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Rasberry' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Rasberry' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -348,7 +378,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -386,7 +417,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'ChocolateMint' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'ChocolateMint' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -395,7 +426,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -433,7 +465,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Oreo' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Oreo' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -442,7 +474,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -488,7 +521,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Peach tea' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Peach tea' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -497,7 +530,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -538,7 +572,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Oolong tea' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Oolong tea' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -547,7 +581,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -588,7 +623,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Milk tea' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Milk tea' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -597,7 +632,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -638,7 +674,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Lynch tea' and Size = '" + row.Cells[3].Value + "'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Lynch tea' and Size = '" + row.Cells[3].Value + "'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -647,7 +683,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -681,7 +718,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Banh mi que' and Size = 'M'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Banh mi que' and Size = 'M'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -690,7 +727,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -719,7 +757,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Peach pudding' and Size = 'M'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Peach pudding' and Size = 'M'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -728,7 +766,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -757,7 +796,7 @@ namespace Cafe
                     try
                     {
                         connection.Open();
-                        String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Banh mi cha bong pho mai' and Size = 'M'";
+                        String sqlQuerry = "select Gia,SanPham.MaSP from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Banh mi cha bong pho mai' and Size = 'M'";
                         SqlCommand command = new SqlCommand(sqlQuerry, connection);
                         SqlDataReader reader = command.ExecuteReader();
                         while (reader.HasRows)
@@ -766,7 +805,8 @@ namespace Cafe
                             {
                                 return;
                             }
-                            row.Cells[4].Value = reader.GetSqlMoney(0);
+                            row.Cells[4].Value = reader.GetInt32(0);
+                            row.Cells[5].Value = reader.GetInt32(1);
                         }
                     }
                     catch (InvalidOperationException ex)
@@ -790,9 +830,10 @@ namespace Cafe
         private void button3_Click(object sender, EventArgs e)
         {
             BillInfo billinfo = new BillInfo(dgv);
+            billinfo.FormClosed += new FormClosedEventHandler(billinfo_closed);
             this.Hide();
             billinfo.ShowDialog();
-            billinfo.FormClosed += new FormClosedEventHandler(billinfo_closed);
+            
             
         }
 

@@ -104,6 +104,12 @@
     <Compile Include="Setting1.Designer.cs">
       <DependentUpon>Setting1.cs</DependentUpon>
     </Compile>
+    <Compile Include="setting_option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="setting_option.Designer.cs">
+      <DependentUpon>setting_option.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BillInfo.resx">
       <DependentUpon>BillInfo.cs</DependentUpon>
     </EmbeddedResource>
@@ -140,6 +146,9 @@
     </Compile>
     <EmbeddedResource Include="Setting1.resx">
       <DependentUpon>Setting1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="setting_option.resx">
+      <DependentUpon>setting_option.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

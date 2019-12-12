@@ -8,7 +8,7 @@ namespace Cafe
 {
     class Class1
     {
- 
+ public static int trigia { get; set; }
         public static int Billnumber
         {
             get;

@@ -146,7 +146,7 @@ insert into CTHD (SoHD,MaSP,Size,SoLuong) values ((select top 1	SoHd  from HoaDo
 insert into HoaDon (NgHD,ThoigianHD,TriGia,TienKhachDua) values (GETDATE(),GETDATE(),104000,104000)
 insert into CTHD (SoHD,MaSP,Size,SoLuong) values ((select top 1	SoHd  from HoaDon order by SoHd desc),5,'M',2)
 
-insert into HoaDon (NgHD,ThoigianHD,TriGia,TienKhachDua) values (GETDATE(),GETDATE(),111000,115000)
+insert into HoaDon (NgHD,ThoigianHD,TriGia,TienKhachDua) values (GETDATE(),GETDATE(),0,0)
 insert into CTHD (SoHD,MaSP,Size,SoLuong) values ((select top 1	SoHd  from HoaDon order by SoHd desc),5,'M',1)
 insert into CTHD (SoHD,MaSP,Size,SoLuong) values ((select top 1	SoHd  from HoaDon order by SoHd desc),5,'L',1)
 
@@ -178,3 +178,5 @@ and		Ten='Black cafe'
 and		Size='M'
 
 select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Black cafe' and Size = 'M'
+
+select	SoHd from HoaDon where day(NgHD)=day(GETDATE())

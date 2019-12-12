@@ -35,17 +35,19 @@ namespace Cafe
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MainLogin g = new MainLogin();
+            setting_option g = new setting_option();
 
 
             this.Hide();
+            g.FormClosed += new FormClosedEventHandler(mainlogin_closed);
 
-            MessageBox.Show("Bạn đã vào phần setting của ứng dụng");
 
             g.ShowDialog();
+        }
 
-            this.Close();
-
+        private void mainlogin_closed(object sender,FormClosedEventArgs e)
+        {
+            this.Show();
         }
     }
 }

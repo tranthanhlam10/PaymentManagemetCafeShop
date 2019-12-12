@@ -30,31 +30,30 @@ namespace Cafe
             try
             {
                 connection.Open();
-                String sqlQuerry = "select username,MatKhau from pass";
+                String sqlQuerry = "select MatKhau from Nhanvien where MaNV=" + textBox1.Text;
                 SqlCommand command = new SqlCommand(sqlQuerry, connection);
                 SqlDataReader reader = command.ExecuteReader();
                 while (reader.HasRows)
                 {
-                    if (reader.Read() == false) return;
-                    String SampleUsername = reader.GetString(0);
-                    String SamplePass = reader.GetString(1);
-                    if (textBox1.Text == SampleUsername)
+                    if (reader.Read() == false)
                     {
-                        using (MD5 md5hash = MD5.Create())
+                        return;
+                    }
+                    String SamplePass = reader.GetString(0);
+
+                    using (MD5 md5hash = MD5.Create())
+                    {
+                        if (VerifyMd5Hash(md5hash, textBox2.Text, SamplePass))
                         {
-                            if (VerifyMd5Hash(md5hash, textBox2.Text, SamplePass))
-                            {
-                                MessageBox.Show("Welcome " + SampleUsername);
-                                Setting1 setting1 = new Setting1();
-                                setting1.FormClosed += new FormClosedEventHandler(setting1_closed);
-                                this.Hide();
-                                setting1.Show();
-                                flag = 1;
-                            }
-                            else
-                            {
-                                flag = 0;
-                            }
+                            Setting1 setting1 = new Setting1();
+                            setting1.FormClosed += new FormClosedEventHandler(setting1_closed);
+                            this.Hide();
+                            setting1.Show();
+                            flag = 1;
+                        }
+                        else
+                        {
+                            flag = 0;
                         }
                     }
                     if (flag == 0)
@@ -71,6 +70,8 @@ namespace Cafe
             }
             finally
             {
+                textBox2.Clear();
+                textBox1.Clear();
                 connection.Close();
             }
         }
@@ -118,6 +119,11 @@ namespace Cafe
             {
                 return false;
             }
+        }
+
+        private void button17_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
