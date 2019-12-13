@@ -34,13 +34,14 @@ namespace Cafe
                 String sqlQuerry = "select	SoHd,NgHD,TriGia from HoaDon where day(NgHD)=day(GETDATE())";
                 SqlCommand command = new SqlCommand(sqlQuerry, connection);
                 SqlDataReader reader = command.ExecuteReader();
-                DataGridViewRow row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
+                
                 while (reader.HasRows)
                 {
                     if (reader.Read() == false)
                     {
                         return;
                     }
+                    DataGridViewRow row = (DataGridViewRow)dataGridView1.Rows[0].Clone();
                     row.Cells[0].Value = reader.GetInt32(0);
                     //DateTime dt = (DateTime)reader.GetSqlDateTime(1);
                     row.Cells[1].Value = reader.GetDateTime(1).ToString();

@@ -17,7 +17,7 @@ namespace Cafe
             
         }
 
-
+        public static int dem = 0;
 
     }
 }

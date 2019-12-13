@@ -39,7 +39,7 @@ namespace Cafe
         {
             if (textBox1.Text != "")
             {
-                String connString = @"Data Source=192.168.43.158, 9999 ; Network Library=DBMSSOCN; Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
+                String connString = @"Data Source=HOME-PC;Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
                 SqlConnection connection = new SqlConnection(connString);
                 int flag = 0;
                 try

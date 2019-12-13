@@ -39,38 +39,41 @@ namespace Cafe
 
         private void button1_Click(object sender, EventArgs e)
         {
-            //String connString = @"Data Source=HOME-PC;Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
-            //SqlConnection connection = new SqlConnection(connString);
-            //try
-            //{
-            //    connection.Open();
-            //    String sqlQuerry = "select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Bl";
-            //    SqlCommand command = new SqlCommand(sqlQuerry, connection);
-            //    command.ExecuteNonQuery();
-
-            //}
-            //catch (InvalidOperationException ex)
-            //{
-            //    MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
-            //}
-            //catch (Exception ex)
-            //{
-            //    MessageBox.Show("ket noi xay ra loi");
-            //}
-            //finally
-            //{
-
-            //    connection.Close();
-            //}
-
-
-
-
-            if (dgv2.Rows[1].Cells[1].Value != null)
+            String connString = @"Data Source=HOME-PC;Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(connString);
+            try
             {
-    
-                MessageBox.Show("insert into CTHD (SoHD,MaSP,Size,SoLuong) values ((select top 1 SoHd  from HoaDon order by SoHd desc),"+ dgv2.Rows[0].Cells[0].Value.ToString() + ",'"+dgv2.Rows[0].Cells[3].Value.ToString()+"',"+ dgv2.Rows[0].Cells[2].Value.ToString() + ")");
+                connection.Open();
+                String sqlQuerry = "insert into HoaDon (NgHD, ThoigianHD, TriGia, TienKhachDua) values(GETDATE(), GETDATE(), "+textBox32.Text+", "+textBox1.Text+")";
+                SqlCommand command = new SqlCommand(sqlQuerry, connection);
+                command.ExecuteNonQuery();
+                for(int i=0;i<dgv2.Rows.Count-1;i++)
+                {
+                  sqlQuerry = "insert into CTHD (SoHD,MaSP,Size,SoLuong) values ((select top 1 SoHd  from HoaDon order by SoHd desc)," + dgv2.Rows[i].Cells[5].Value.ToString() + ",'" + dgv2.Rows[i].Cells[3].Value.ToString() + "'," + dgv2.Rows[0].Cells[2].Value.ToString() + ")";
+                    command.Dispose();
+                    command = new SqlCommand(sqlQuerry, connection);
+                    command.ExecuteNonQuery();
+                }
+
             }
+            catch (InvalidOperationException ex)
+            {
+                MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ket noi xay ra loi");
+            }
+            finally
+            {
+
+                connection.Close();
+            }
+            Class1.dem = 1;
+
+            this.Close();
+
+            
 
 
         }

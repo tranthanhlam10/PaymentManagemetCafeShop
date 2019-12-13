@@ -58,22 +58,6 @@ C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Caf
 C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.boking2.resources
 C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.booking4.resources
 C:\Users\HOME\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.setting_option.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe.config
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.pdb
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csprojAssemblyReference.cache
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BillInfo.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.boking2.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.booking4.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BookingBestSaler.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Booking.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.paymentcafe.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Table.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.MainLogin.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Properties.Resources.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Setting1.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.setting_option.resources
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.GenerateResource.cache
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.csproj.CoreCompileInputs.cache
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.exe
-C:\Users\COMPUTER\Desktop\New folder\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.pdb
+C:\Users\HOME\Desktop\New folder\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\bin\Debug\Cafe.exe.config
+C:\Users\HOME\Desktop\New folder\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.exe
+C:\Users\HOME\Desktop\New folder\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.pdb

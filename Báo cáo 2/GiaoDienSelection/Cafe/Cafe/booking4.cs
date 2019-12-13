@@ -84,8 +84,7 @@ namespace Cafe
 
         private void button2_Click(object sender, EventArgs e)
         {
-            //String connString = @"Data Source=HOME-PC;Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
-            String connString = @"Data Source=192.168.43.158, 9999 ; Network Library=DBMSSOCN; Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
+            String connString = @"Data Source=HOME-PC;Initial Catalog=PaymentCoffeeShop;Integrated Security=True";
             SqlConnection connection = new SqlConnection(connString);
             if (tabControl1.SelectedTab == tabControl1.TabPages["Cafe"])
             {
@@ -840,7 +839,9 @@ namespace Cafe
 
         private void billinfo_closed(object sender,FormClosedEventArgs e)
         {
-            this.Show();
+            if (Class1.dem == 1)
+                this.Close();
+            else this.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)
