@@ -73,9 +73,79 @@ namespace Cafe.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bucac1 {
+            get {
+                object obj = ResourceManager.GetObject("bucac1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bucac2 {
+            get {
+                object obj = ResourceManager.GetObject("bucac2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bucac3 {
+            get {
+                object obj = ResourceManager.GetObject("bucac3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Configuration_512 {
+            get {
+                object obj = ResourceManager.GetObject("Configuration-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap different_payment_methods_in_uae_flt4x5 {
+            get {
+                object obj = ResourceManager.GetObject("different-payment-methods-in-uae_flt4x5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Elements_of_setting_how_to_create_a_vivid_world_Now_Novel {
+            get {
+                object obj = ResourceManager.GetObject("Elements-of-setting-how-to-create-a-vivid-world-Now-Novel", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap hinh_anh_cafe_dep_ly_cafe_ca_phe_sua_da_ca_phe_den_7 {
             get {
                 object obj = ResourceManager.GetObject("hinh-anh-cafe-dep-ly-cafe-ca-phe-sua-da-ca-phe-den-7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap nhan_vien {
+            get {
+                object obj = ResourceManager.GetObject("nhan-vien", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

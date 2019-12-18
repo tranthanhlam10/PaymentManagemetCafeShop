@@ -151,5 +151,26 @@
   <ItemGroup>
     <None Include="Resources\hinh-anh-cafe-dep-ly-cafe-ca-phe-sua-da-ca-phe-den-7.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nhan-vien.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucac1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Elements-of-setting-how-to-create-a-vivid-world-Now-Novel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Configuration-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucac3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bucac2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\different-payment-methods-in-uae_flt4x5.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

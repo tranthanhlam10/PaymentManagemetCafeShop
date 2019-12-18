@@ -41,7 +41,7 @@
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(412, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(385, 52);
+            this.label1.Size = new System.Drawing.Size(383, 51);
             this.label1.TabIndex = 0;
             this.label1.Text = "BookingBestSaler";
             // 
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1239, 678);
+            this.ClientSize = new System.Drawing.Size(1239, 590);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.label1);
