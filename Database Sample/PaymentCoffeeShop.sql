@@ -180,3 +180,15 @@ and		Size='M'
 select Gia from SanPham, CTSP where SanPham.MaSP = CTSP.MaSP and Ten = 'Black cafe' and Size = 'M'
 
 select	SoHd from HoaDon where day(NgHD)=day(GETDATE())
+
+select	Ten,sum(SoLuong)
+from	CTHD,SanPham,HoaDon
+where	cthd.MaSP=SanPham.MaSP
+and		HoaDon.SoHd=CTHD.SoHD
+and		NgHD>='11/19/2019'
+and		NgHD<='12/19/2019'
+group by CTHD.MaSP,Ten
+order by sum(SoLuong) desc
+
+
+select	SoHd,NgHD,TriGia from HoaDon where (NgHD)='12/12/2019'

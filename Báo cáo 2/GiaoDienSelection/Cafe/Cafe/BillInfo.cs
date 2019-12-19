@@ -77,5 +77,15 @@ namespace Cafe
 
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+                int dau = Convert.ToInt32(textBox1.Text);
+                int duoi = Convert.ToInt32(textBox32.Text);
+                textBox2.Text = (dau - duoi).ToString();
+            }
+        }
     }
 }
