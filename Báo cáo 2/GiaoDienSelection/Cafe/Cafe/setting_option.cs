@@ -29,7 +29,7 @@ namespace Cafe
 
         private void button2_Click(object sender, EventArgs e)
         {
-            MainLogin main = new MainLogin();
+            boking2 main = new boking2();
             main.FormClosed += new FormClosedEventHandler(main_closed);
 
             this.Hide();

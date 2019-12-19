@@ -71,7 +71,6 @@ C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.BookingBestSaler.resources
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.paymentcafe.resources
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Table.resources
-C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.MainLogin.resources
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Properties.Resources.resources
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.Setting1.resources
 C:\Users\COMPUTER\Desktop\PaymentManagemetCafeShop\Báo cáo 2\GiaoDienSelection\Cafe\Cafe\obj\Debug\Cafe.setting_option.resources
