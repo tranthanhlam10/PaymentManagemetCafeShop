@@ -52,11 +52,11 @@ namespace Cafe
             }
             catch (InvalidOperationException ex)
             {
-                MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                MessageBox.Show("Không thể mở kết nối hoặc kết nối đã kết nối từ trước");
             }
             catch (Exception ex)
             {
-                MessageBox.Show("ket noi xay ra loi");
+                MessageBox.Show("kết nối xảy ra lỗi");
             }
             finally
             {

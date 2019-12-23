@@ -77,11 +77,11 @@ namespace Cafe
                 }
                 catch (InvalidOperationException ex)
                 {
-                    MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                    MessageBox.Show("Không thể kết nối hoặc kết nối đã lỗi từ trước");
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("ket noi xay ra loi");
+                    MessageBox.Show("Kết nối xảy ra lỗi");
                 }
                 finally
                 {
@@ -134,6 +134,11 @@ namespace Cafe
             {
                 return false;
             }
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

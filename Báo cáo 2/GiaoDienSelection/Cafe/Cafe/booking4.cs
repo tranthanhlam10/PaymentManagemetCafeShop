@@ -126,11 +126,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show(" Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -178,11 +178,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -229,11 +229,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -280,11 +280,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -331,11 +331,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -384,11 +384,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -432,11 +432,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -480,11 +480,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -536,11 +536,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -587,11 +587,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -638,11 +638,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -689,11 +689,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -733,11 +733,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -772,11 +772,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -811,11 +811,11 @@ namespace Cafe
                     }
                     catch (InvalidOperationException ex)
                     {
-                        MessageBox.Show("khong the mo ket noi hoac ket noi da duoc mo tu truoc");
+                        MessageBox.Show("Không thể mở kết nối hoặc kết nối đã mở từ trước");
                     }
                     catch (Exception ex)
                     {
-                        MessageBox.Show("ket noi xay ra loi");
+                        MessageBox.Show("Kết nối xảy ra lỗi");
                     }
                     finally
                     {
@@ -849,5 +849,9 @@ namespace Cafe
             this.Close();
         }
 
+        private void label29_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
