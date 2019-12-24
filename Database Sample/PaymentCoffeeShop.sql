@@ -192,3 +192,6 @@ order by sum(SoLuong) desc
 
 
 select	SoHd,NgHD,TriGia from HoaDon where (NgHD)='12/12/2019'
+
+select top 1 sohd from hoadon order by sohd desc
+select top 1 sohd from hoadon order by sohd desc

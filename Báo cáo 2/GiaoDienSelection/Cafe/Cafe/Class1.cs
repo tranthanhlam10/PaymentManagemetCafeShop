@@ -17,6 +17,11 @@ namespace Cafe
             
         }
 
+        public static String ban
+        {
+            get;
+            set;
+        }
         public static int dem = 0;
 
     }

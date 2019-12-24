@@ -40,7 +40,7 @@ namespace Cafe
             dgv.RowsAdded += new DataGridViewRowsAddedEventHandler(DataGridView1_RowsAdded);
             dgv.RowsRemoved += new DataGridViewRowsRemovedEventHandler(DataGridView1_RowsRemoved);
         }
-        static int asd = 0;
+
         private void DataGridView1_RowsAdded(object sender, System.Windows.Forms.DataGridViewRowsAddedEventArgs e)
         {
             Class1.trigia = 0;
@@ -91,7 +91,7 @@ namespace Cafe
                 if (tabControl2.SelectedTab == tabControl2.TabPages["CafeDen"])
                 {
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Cafe đen";
+                    row.Cells[1].Value = "Cafe den";
                     row.Cells[2].Value = textBox22.Text;
              
                     if (radioButton1.Checked == true)
@@ -143,7 +143,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Cafe sữa";
+                    row.Cells[1].Value = "Cafe sua";
                     row.Cells[2].Value = textBox24.Text;
 
                     if (radioButton6.Checked == true)
@@ -501,7 +501,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Trà đào";
+                    row.Cells[1].Value = "Tra dao";
                     row.Cells[2].Value = textBox8.Text;
 
                     if (radioButton27.Checked == true)
@@ -552,7 +552,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Trà Oolong";
+                    row.Cells[1].Value = "Tra Oolong";
                     row.Cells[2].Value = textBox10.Text;
 
                     if (radioButton30.Checked == true)
@@ -603,7 +603,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Trà sữa";
+                    row.Cells[1].Value = "Tra sua";
                     row.Cells[2].Value = textBox12.Text;
 
                     if (radioButton33.Checked == true)
@@ -654,7 +654,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Trà vải";
+                    row.Cells[1].Value = "Tra vai";
                     row.Cells[2].Value = textBox14.Text;
 
                     if (radioButton36.Checked == true)
@@ -710,7 +710,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Bánh mì que";
+                    row.Cells[1].Value = "Banh mi que";
                     row.Cells[2].Value = textBox3.Text;
 
                     
@@ -749,7 +749,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Pudding đào";
+                    row.Cells[1].Value = "Pudding dao";
                     row.Cells[2].Value = textBox4.Text;
 
                    
@@ -788,7 +788,7 @@ namespace Cafe
                 {
 
                     DataGridViewRow row = (DataGridViewRow)dgv.Rows[0].Clone();
-                    row.Cells[1].Value = "Bánh mì chà bông phô mai";
+                    row.Cells[1].Value = "Banh mi cha bong pho mai";
                     row.Cells[2].Value = textBox6.Text;
 
                   
@@ -851,6 +851,13 @@ namespace Cafe
 
         private void label29_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void booking4_Load(object sender, EventArgs e)
+        {
+            Class1.ban = textBox1.Text;
+
 
         }
     }
